@@ -162,14 +162,14 @@ while loop == True:
 	choice = input("Generate a report [R] or obtain a File [F]: ")
 	if choice == "r" or choice == "R":
 		Report()
-		quiz = input("[Q] to quit or [Enter] to run again: ")
-		if quiz == "Q" or quiz == "q":
+		retry = input("[Q] to quit or [Enter] to run again: ")
+		if retry == "Q" or quiz == "q":
 			loop = False
 			quit()
 	elif choice == "f" or choice == "F":
 		File()
-		quiz = input("[Q] to quit or [Enter] to run again: ")
-		if quiz == "Q" or quiz == "q":
+		retry = input("[Q] to quit or [Enter] to run again: ")
+		if retry == "Q" or quiz == "q":
 			loop = False
 			quit()
 
